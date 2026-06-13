@@ -1,6 +1,7 @@
 # Big Data Analysis Simulation
 
 By: Louis Filiepe Tio Jansel
+Streamlit link: https://simulation-big-data-analysis.streamlit.app/
 
 A short and simple simulation of big data processing and analysis, focusing specifically on simulating several key points:
 1. Big Data processing
@@ -24,5 +25,5 @@ A short and simple simulation of big data processing and analysis, focusing spec
 
 Note: 
 - **Only use method 2 if method 1 does not work**
-- The streamlit app and code in general was created locally, and as such, it would be best if the program is run locally and run within a local virtual environment (run 'python -m venv venv' to create a new python virtual environment).
+- The streamlit app and code in general was created locally, and as such, it would be best if the program is run locally and run within a local virtual environment (run 'python -m venv venv' to create a new python virtual environment), or simply see the app in the provided link.
 - The ipykernel library may have to be installed separately from the rest of the libraries.
