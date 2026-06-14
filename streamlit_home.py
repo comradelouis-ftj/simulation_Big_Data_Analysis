@@ -79,8 +79,8 @@ with st.container(border=True):
 
     # Get User Details
     with col1:
-        st.markdown("<h3>Get User Details\n(Example: type 'U0110' or 'U0098')</h3>", unsafe_allow_html=True)
-        user_id = st.text_input(label='Insert User ID', placeholder='U0XXX...')
+        st.markdown("<h3>Get User Details</h3>", unsafe_allow_html=True)
+        user_id = st.text_input(label="Insert User ID\n(Example: type 'U0110' or 'U0098')", placeholder='U0XXX...')
         if user_id:
             if user_id.lower() in users_list:
                 st.write(f'{user_id} Found!')
